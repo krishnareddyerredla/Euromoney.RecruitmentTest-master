@@ -23,7 +23,7 @@ namespace ContentConsole
       consoleHelper = new ConsoleHelper();
       consoleHelper.WriteLine("Text analyser started....");
 
-      //  Creating test bannerwords
+      // Creating test bannerwords
       wordService = new WordService();
       TestData.BannedWords.ToList().ForEach(wordService.AddBannedWord);
 
